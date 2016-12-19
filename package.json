@@ -1,0 +1,26 @@
+{
+  "name": "twitter-hapi-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aditiasap/twitter-hapi-auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aditiasap/twitter-hapi-auth/issues"
+  },
+  "homepage": "https://github.com/aditiasap/twitter-hapi-auth#readme",
+  "dependencies": {
+    "bell": "^8.4.0",
+    "blipp": "^2.3.0",
+    "hapi": "^16.0.1",
+    "hapi-auth-cookie": "^6.1.1"
+  }
+}
