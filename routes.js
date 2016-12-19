@@ -37,13 +37,13 @@ module.exports = [
 		method: 'GET',
 		path: '/private',
 		config: {
-			//auth: 'session',
+			auth: 'session',
 			//auth: false,
-			auth: {
+/*			auth: {
 				strategy: 'session',
 				mode: 'try'
 			},
-			handler: function (request, reply) {
+*/			handler: function (request, reply) {
 				return reply(request.auth);
 			}
 		}
